@@ -1,0 +1,80 @@
+name: Build and Deploy Document Classifier
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  ACR_NAME: enterpisedocacr
+  ACR_LOGIN_SERVER: enterpisedocacr.azurecr.io
+  IMAGE_NAME: document-classifier-api
+  RESOURCE_GROUP: rg-docclass-dev-001
+  AKS_CLUSTER: enterprise-doc-aks
+
+jobs:
+  build-and-deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # 1. Get source code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Login to Azure using OIDC
+      - name: Azure Login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      # 3. Login to Azure Container Registry
+      - name: Login to ACR
+        run: |
+          az acr login --name ${{ env.ACR_NAME }}
+
+      # 4. Build Docker image
+      - name: Build Docker image
+        run: |
+          docker build \
+            -t ${{ env.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
+            .
+
+      # 5. Push Docker image to ACR
+      - name: Push Docker image to ACR
+        run: |
+          docker push \
+            ${{ env.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+      # 6. Get AKS credentials
+      - name: Get AKS credentials
+        run: |
+          az aks get-credentials \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --name ${{ env.AKS_CLUSTER }} \
+            --admin \
+            --overwrite-existing
+
+      # 7. Update AKS deployment
+      - name: Deploy to AKS
+        run: |
+          kubectl set image deployment/document-classifier \
+            document-classifier=${{ env.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
+      # 8. Wait for rollout
+      - name: Verify deployment
+        run: |
+          kubectl rollout status deployment/document-classifier --timeout=180s
+
+      # 9. Show final status
+      - name: Show Kubernetes resources
+        run: |
+          kubectl get pods
+          kubectl get service
