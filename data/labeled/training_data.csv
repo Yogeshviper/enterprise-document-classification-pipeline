@@ -1,0 +1,26 @@
+document_text,label
+Invoice No INV-2026-201. Bill To Northwind Services. Item Cloud consulting. Amount $2450. Tax $245. Total Due $2695.,invoice
+Invoice No INV-2026-202. Bill To Contoso Ltd. Item Software subscription. Amount $1800. Tax $180. Total Due $1980.,invoice
+Invoice No INV-2026-203. Vendor Alpine Services. Consulting services. Subtotal $3200. Tax $320. Total $3520.,invoice
+Invoice No INV-2026-204. Customer Fabrikam Ltd. Hardware maintenance. Amount $1250. Tax $125. Total Due $1375.,invoice
+Invoice No INV-2026-205. Bill To Adventure Works. Item Network support. Amount $4100. Tax $410. Total Due $4510.,invoice
+PO Number PO-2026-301. Supplier TechSource Ltd. Buyer Northwind Services. Item Laptop computers. Quantity 20. Order Total $18000.,purchase-order
+PO Number PO-2026-302. Vendor OfficeMart. Requested by Administration. Item Office chairs. Quantity 50. Total $7500.,purchase-order
+Purchase Order PO-2026-303. Supplier Contoso Hardware. Buyer Operations. Item Monitors. Quantity 25. Total value $6000.,purchase-order
+Purchase Order PO-2026-304. Supplier Alpine Systems. Buyer Finance. Item Desktop computers. Quantity 15. Order total $15000.,purchase-order
+PO Number PO-2026-305. Vendor Fabrikam Supplies. Requested by IT. Item Network switches. Quantity 10. Total $8200.,purchase-order
+Resume. Daniel Wilson. Software Developer. Skills Java Python SQL REST APIs. Experience backend application development. Education MS Information Technology.,resume
+Professional Resume. Alex Morgan. Cloud Engineer. Skills Azure AWS Terraform Docker Python. Experience 4 years cloud infrastructure. Education BSc Computer Science.,resume
+Resume. Priya Shah. Data Analyst. Skills Python SQL Power BI Excel. Experience data reporting and analytics. Education MSc Statistics.,resume
+Curriculum Vitae. Rahul Mehta. DevOps Engineer. Skills Azure Kubernetes Terraform Jenkins Docker. Experience CI/CD and cloud operations.,resume
+Professional Resume. Sara Thomas. Machine Learning Engineer. Skills Python scikit-learn MLflow Azure Machine Learning. Experience model development.,resume
+Consulting Agreement. Consultant Jordan Lee. Client Example Holdings. Scope Technology advisory services. Fees Monthly retainer. Confidential information must be protected.,contract
+Service Agreement. Agreement No SA-2026-11. Party A Northwind Ltd. Party B Alpine Services. Term 12 months. Payment terms Net 30 days. Authorized signatures required.,contract
+Master Services Agreement between Contoso Ltd and Fabrikam Inc. Scope software implementation services. Term 24 months. Confidentiality and termination clauses apply.,contract
+Technology Consulting Contract. Client Adventure Works. Consultant Cloud Advisory Ltd. Services infrastructure modernization. Monthly fees. Agreement subject to confidentiality.,contract
+Software Services Agreement. Customer Northwind Services. Provider TechSource Ltd. Scope application maintenance and support. Term one year. Payment due monthly.,contract
+"Internal Meeting Notes. Meeting Date August 10, 2026. Topic Infrastructure modernization. Discussion Cloud migration milestones. Action Review deployment plan. Next meeting August 17.",other
+"Project Meeting Agenda. Meeting Cloud Operations Review. Date August 12, 2026. Agenda Cost, security, availability. Attendees Operations and Engineering. Duration 60 minutes.",other
+Company Announcement. Office will be closed for the scheduled maintenance window. Employees should complete pending activities before the maintenance begins.,other
+"Project Status Update. Current phase testing. Open items include documentation, stakeholder review, and deployment readiness. Next review scheduled Friday.",other
+Internal Policy Note. All teams must follow the approved change management process and obtain authorization before production deployment.,other

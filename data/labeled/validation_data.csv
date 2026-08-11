@@ -1,0 +1,21 @@
+document_text,label
+Invoice INV-2026-501. Customer Northwind Services. Vendor CloudWorks Ltd. Monthly cloud hosting services. Total amount $1450.,invoice
+Invoice INV-2026-502. Bill To Contoso Ltd. Software subscription and support services. Total amount $890.,invoice
+Invoice INV-2026-503. Vendor Alpine Services. Consulting and implementation services. Amount due $2750.,invoice
+Invoice INV-2026-504. Customer Fabrikam Ltd. Hardware maintenance services for July 2026. Total $1320.,invoice
+Invoice INV-2026-505. Bill To Adventure Works. Network support and monitoring services. Amount payable $760.,invoice
+Invoice INV-2026-506. Supplier TechSource Ltd. Laptop accessories and peripherals supplied. Total invoice value $2180.,invoice
+Invoice INV-2026-507. Customer Woodgrove Bank. Annual software licensing charges. Amount $4200.,invoice
+Invoice INV-2026-508. Bill To Tailspin Toys. Data backup and storage services. Total due $640.,invoice
+Invoice INV-2026-509. Vendor BlueYonder Systems. Application maintenance for August 2026. Total $1850.,invoice
+Invoice INV-2026-510. Customer Litware Inc. Professional IT services and support. Amount due $3100.,invoice
+Purchase Order PO-2026-501. Buyer Northwind Services. Supplier CloudWorks Ltd. Cloud infrastructure services. Quantity 12.,purchase-order
+Purchase Order PO-2026-502. Buyer Contoso Ltd. Supplier SoftwareHub Inc. Enterprise software licenses. Quantity 25.,purchase-order
+PO Number PO-2026-503. Supplier Alpine Technologies. Buyer Fabrikam Ltd. Item server maintenance package. Quantity 8.,purchase-order
+PO Number PO-2026-504. Supplier TechSource Ltd. Buyer Adventure Works. Item business laptops. Quantity 15.,purchase-order
+Purchase Order PO-2026-505. Buyer Woodgrove Bank. Supplier SecureNet Systems. Network security appliances. Quantity 6.,purchase-order
+PO Number PO-2026-506. Supplier DataStore Solutions. Buyer Tailspin Toys. Cloud backup subscription. Quantity 20.,purchase-order
+Purchase Order PO-2026-507. Buyer Litware Inc. Supplier BlueYonder Systems. Application support services. Quantity 12.,purchase-order
+PO Number PO-2026-508. Supplier OfficeTech Ltd. Buyer Northwind Services. Desktop monitors and accessories. Quantity 30.,purchase-order
+Purchase Order PO-2026-509. Buyer Contoso Ltd. Supplier NetWorks India. Network switches and equipment. Quantity 10.,purchase-order
+PO Number PO-2026-510. Supplier CloudMatrix Ltd. Buyer Fabrikam Ltd. Virtual infrastructure support package. Quantity 5.,purchase-order
