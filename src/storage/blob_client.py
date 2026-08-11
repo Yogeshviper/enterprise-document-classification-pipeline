@@ -6,6 +6,7 @@ STORAGE_ACCOUNT_NAME = "stdocclassdev001"
 
 
 class BlobStorageClient:
+
     def __init__(self):
         account_url = (
             f"https://{STORAGE_ACCOUNT_NAME}.blob.core.windows.net"
@@ -28,4 +29,35 @@ class BlobStorageClient:
             blob.name
             for blob in container_client.list_blobs()
         ]
-    
+
+    def upload_document(
+        self,
+        container_name: str,
+        blob_name: str,
+        data
+    ):
+        container_client = self.get_container(container_name)
+
+        blob_client = container_client.get_blob_client(
+            blob_name
+        )
+
+        blob_client.upload_blob(
+            data,
+            overwrite=True
+        )
+
+        return blob_name
+
+    def download_document(
+        self,
+        container_name: str,
+        blob_name: str
+    ):
+        container_client = self.get_container(container_name)
+
+        blob_client = container_client.get_blob_client(
+            blob_name
+        )
+
+        return blob_client.download_blob().readall()
