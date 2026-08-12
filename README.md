@@ -14,39 +14,10 @@ deployment and reporting.
 
 ## Architecture
 
-Document Files
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/503b26ec-fca2-431f-b643-20aad8192669" />
 
-↓
 
-Azure Blob Storage
 
-↓
-
-Azure AI Foundry
-
-↓
-
-Azure Machine Learning
-
-↓
-
-Model Registry
-
-↓
-
-GitHub Actions
-
-↓
-
-AKS Endpoint
-
-↓
-
-Power BI
-
-Microsoft Entra ID provides authentication and authorization.
-
----
 
 ## Key Microsoft Services
 
