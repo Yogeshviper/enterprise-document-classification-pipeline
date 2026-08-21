@@ -48,5 +48,4 @@ The storage architecture is independent of document type.
 
 ```text
 raw-documents/
-processed-documents/
 classified-documents/
