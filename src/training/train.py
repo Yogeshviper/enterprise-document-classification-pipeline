@@ -16,11 +16,11 @@ from sklearn.metrics import (
 # Paths
 # ============================================================
 
-TRAINING_DATA = "data/labeled/training_data.csv"
-VALIDATION_DATA = "data/labeled/validation_data.csv"
+TRAINING_DATA = "data/labeled/training.csv"
+VALIDATION_DATA = "data/labeled/validation.csv"
 
 MODEL_DIR = "models"
-MODEL_PATH = os.path.join(MODEL_DIR, "document_classifier.pkl")
+MODEL_PATH = os.path.join(MODEL_DIR, "document_classifier.pk2")
 
 
 # ============================================================

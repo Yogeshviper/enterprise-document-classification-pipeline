@@ -8,7 +8,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import HTMLResponse, JSONResponse
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.documentintelligence import DocumentIntelligenceClient
-from azure.identity import DefaultAzureCredential
+#from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobServiceClient
 
 
@@ -18,16 +18,20 @@ from azure.storage.blob import BlobServiceClient
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-MODEL_PATH = BASE_DIR / "models" / "document_classifier.pkl"
+MODEL_PATH = BASE_DIR / "models" / "document_classifier.pk2"
 
-STORAGE_ACCOUNT_NAME = "stdocclassdev001"
+STORAGE_ACCOUNT_NAME = "stdocclassdev002"
 
 RAW_CONTAINER = "raw-documents"
 CLASSIFIED_CONTAINER = "classified-documents"
 
+STORAGE_CONNECTION_STRING = os.getenv(
+    "STORAGE_CONNECTION_STRING"
+)
+
 DOCUMENT_INTELLIGENCE_ENDPOINT = os.getenv(
     "DOCUMENT_INTELLIGENCE_ENDPOINT",
-    "https://docclass-di-dev-001.cognitiveservices.azure.com/",
+    "https://docclass-di-dev-002.cognitiveservices.azure.com/",
 )
 
 DOCUMENT_INTELLIGENCE_KEY = os.getenv(
@@ -68,20 +72,37 @@ except Exception as e:
 # AZURE BLOB STORAGE
 # ============================================================
 
+#try:
+#
+#    storage_account_url = (
+#        f"https://{STORAGE_ACCOUNT_NAME}.blob.core.windows.net"
+#    )
+
+#   storage_credential = DefaultAzureCredential()
+
+#    blob_service_client = BlobServiceClient(
+#        account_url=storage_account_url,
+#        credential=storage_credential,
+#    )
+
+#    print("Blob Storage client initialized.")
+
+blob_service_client = None
+
 try:
 
-    storage_account_url = (
-        f"https://{STORAGE_ACCOUNT_NAME}.blob.core.windows.net"
+    if not STORAGE_CONNECTION_STRING:
+
+        raise ValueError(
+            "STORAGE_CONNECTION_STRING environment variable "
+            "is not configured."
+        )
+
+    blob_service_client = BlobServiceClient.from_connection_string(
+        STORAGE_CONNECTION_STRING
     )
 
-    storage_credential = DefaultAzureCredential()
-
-    blob_service_client = BlobServiceClient(
-        account_url=storage_account_url,
-        credential=storage_credential,
-    )
-
-    print("Blob Storage client initialized.")
+    print("Blob Storage client initialized successfully.")
 
 except Exception as e:
 
@@ -711,7 +732,7 @@ button:hover {
 <div class="header">
 
 <h1>
-Enterprise Document Classification
+Document Classification Pipeline
 </h1>
 
 <p>
@@ -795,7 +816,7 @@ Analyzing document...
 
 <div class="footer">
 
-Enterprise Document Classification POC
+Document Classification Pipeline
 
 </div>
 

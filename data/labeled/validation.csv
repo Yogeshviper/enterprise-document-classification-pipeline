@@ -1,0 +1,46 @@
+﻿document_text,label
+Invoice INV-2026-501. Customer Northwind Services. Vendor CloudWorks Ltd. Monthly cloud hosting services. Total amount $1450.,invoice
+Invoice INV-2026-502. Bill To Contoso Ltd. Software subscription and support services. Total amount $890.,invoice
+Invoice INV-2026-503. Vendor Alpine Services. Consulting and implementation services. Amount due $2750.,invoice
+Invoice INV-2026-504. Customer Fabrikam Ltd. Hardware maintenance services for July 2026. Total $1320.,invoice
+Invoice INV-2026-505. Bill To Adventure Works. Network support and monitoring services. Amount payable $760.,invoice
+Invoice INV-2026-506. Supplier TechSource Ltd. Laptop accessories and peripherals supplied. Total invoice value $2180.,invoice
+Invoice INV-2026-507. Customer Woodgrove Bank. Annual software licensing charges. Amount $4200.,invoice
+Invoice INV-2026-508. Bill To Tailspin Toys. Data backup and storage services. Total due $640.,invoice
+Invoice INV-2026-509. Vendor BlueYonder Systems. Application maintenance for August 2026. Total $1850.,invoice
+Invoice INV-2026-510. Customer Litware Inc. Professional IT services and support. Amount due $3100.,invoice
+Purchase Order PO-2026-501. Buyer Northwind Services. Supplier CloudWorks Ltd. Cloud infrastructure services. Quantity 12.,purchase-order
+Purchase Order PO-2026-502. Buyer Contoso Ltd. Supplier SoftwareHub Inc. Enterprise software licenses. Quantity 25.,purchase-order
+PO Number PO-2026-503. Supplier Alpine Technologies. Buyer Fabrikam Ltd. Item server maintenance package. Quantity 8.,purchase-order
+PO Number PO-2026-504. Supplier TechSource Ltd. Buyer Adventure Works. Item business laptops. Quantity 15.,purchase-order
+Purchase Order PO-2026-505. Buyer Woodgrove Bank. Supplier SecureNet Systems. Network security appliances. Quantity 6.,purchase-order
+PO Number PO-2026-506. Supplier DataStore Solutions. Buyer Tailspin Toys. Cloud backup subscription. Quantity 20.,purchase-order
+Purchase Order PO-2026-507. Buyer Litware Inc. Supplier BlueYonder Systems. Application support services. Quantity 12.,purchase-order
+PO Number PO-2026-508. Supplier OfficeTech Ltd. Buyer Northwind Services. Desktop monitors and accessories. Quantity 30.,purchase-order
+Purchase Order PO-2026-509. Buyer Contoso Ltd. Supplier NetWorks India. Network switches and equipment. Quantity 10.,purchase-order
+PO Number PO-2026-510. Supplier CloudMatrix Ltd. Buyer Fabrikam Ltd. Virtual infrastructure support package. Quantity 5.,purchase-order
+Meeting Summary. Reference MTG-VAL-701. Date 14 June 2026. Attendees from Operations and IT reviewed the monthly service status. Decisions: complete access review by 20 June and circulate the action tracker. Prepared by the project coordinator.,other
+Delivery Note. Delivery Reference DN-VAL-702. Date 16 June 2026. Supplier Cedarline Consulting delivered two network switches and installation accessories to the Mumbai office. Items checked and received by the facilities representative. This document confirms delivery only.,other
+IT Service Request. Request ID SR-VAL-703. Submitted 18 June 2026 by the Finance department. Requested access to the monthly reporting workspace. Priority normal. Approval pending with the department manager.,other
+Training Attendance Certificate. Certificate No TR-VAL-704. Awarded to Sana Khan for attending the internal information security awareness workshop on 21 June 2026. Duration three hours. Issued by Learning and Development.,other
+Incident Report. Incident ID INC-VAL-705. Date 23 June 2026. A scheduled file transfer was delayed due to a temporary network interruption. Service restored after connectivity checks. Follow-up monitoring assigned to IT Operations.,other
+"Resume. Name: Nisha Verma. Location: Pune, India. Email: nisha.verma@example.test. Profile: Junior Data Analyst with experience preparing reports and cleaning datasets. Skills: Excel, SQL, Python, Power BI. Experience: Reporting Associate at Sample Analytics, 2023-2025. Education: BSc Statistics, 2022.",resume
+"Curriculum Vitae. Name: Rahul Menon. Contact: rahul.menon@example.test. Objective: Seeking a cloud support role. Skills include Linux administration, Azure fundamentals, networking, PowerShell and ticket handling. Employment: IT Support Technician, 2022-2026. Education: Diploma in Computer Engineering.",resume
+"Professional Profile. Candidate: Pooja Desai. Role sought: Human Resources Executive. Summary: HR professional supporting recruitment coordination, onboarding and employee records. Skills: Applicant tracking systems, payroll coordination, communication and MS Office. Experience: HR Assistant, 2021-2025.",resume
+"Resume of Aditya Rao. Software developer with project experience in Java, REST APIs, Git and relational databases. Work history: Developer Trainee at Orbit Software Labs from 2024 to 2026. Education: Bachelor of Engineering in Information Technology. Projects include an inventory management application.",resume
+"CV. Name: Farah Ali. Position: Operations Coordinator. Experience in vendor coordination, scheduling, documentation and process tracking. Skills: Excel, stakeholder communication and workflow management. Previous employer: Northstar Services, 2022-2025. Education: Bachelor of Commerce.",resume
+Consulting Services Agreement. Agreement No CSA-VAL-801. Effective 01 July 2026 between Summit Digital Works as Consultant and Maple Services as Client. Consultant will provide process advisory services. Fees are payable within 30 days of invoice. Either party may terminate with 30 days written notice. Confidentiality obligations apply.,contract
+"Non-Disclosure Agreement. NDA-VAL-802. Parties: BluePeak Systems and Cedarline Consulting. Effective date 03 July 2026. The receiving party must protect confidential business and technical information, use it only for the agreed evaluation, and return or destroy it upon written request. Governing law: Maharashtra, India.",contract
+"Software License Agreement. Reference SLA-VAL-803. Licensor grants the customer a limited, non-exclusive right to use the software during the subscription term. The customer must protect access credentials and comply with usage restrictions. Annual license fee and renewal terms are specified in the order form.",contract
+"Maintenance Contract. Contract MC-VAL-804. Dated 08 July 2026. Provider will perform quarterly preventive maintenance and respond to support requests during business hours. Service levels, exclusions, fees and escalation contacts are defined in the attached schedule. Authorized representatives sign below.",contract
+"Employment Agreement. Reference EA-VAL-805. Employer: Sample Technology Services. Employee: Karan Shah. Start date 15 July 2026. Role: Systems Associate. The agreement describes duties, compensation, working hours, leave, confidentiality, intellectual property and termination conditions. Signed by both parties.",contract
+Employee Identity Card. Organization: Maple Services. Name: Nisha Verma. Employee Number: MS-EMP-7301. Department: Human Resources. Designation: HR Executive. Issued: 01 April 2026. Valid through: 31 March 2028. Cardholder signature and issuer authorization fields.,id-card
+Campus Student ID. Institution: Western Sample Institute. Student Name: Rahul Menon. Registration Number: WSI-26-1184. Course: Diploma in Computer Engineering. Academic Year: 2026-2027. Library and campus access card. Valid for the stated academic year.,id-card
+Visitor Identification Badge. Visitor: Pooja Desai. Badge Number: VIS-VAL-7303. Host Department: Operations. Visit Date: 12 July 2026. Access Area: Reception and Meeting Room 2. Return badge to security desk before departure.,id-card
+Staff Identity Card. Name: Aditya Rao. Staff Code: STF-7304. Employer: BluePeak Systems. Department: Software Engineering. Blood group field: Not provided. Issue date: 05 May 2026. Expiry date: 04 May 2028. Sample staff identification.,id-card
+Membership Card. Member Name: Farah Ali. Membership ID: CLUB-7305. Issuing Organization: Sample Professional Association. Member Type: Associate. Validity: January 2026 to December 2027. Photograph and authorized signature fields.,id-card
+"UPI Payment Receipt. Transaction ID UPI-VAL-901. Date 02 July 2026. Paid by Nisha Verma to Maple Services for office stationery. Amount INR 1,275.00. Payment status successful. Reference number 8821901.",receipt
+Cash Sale Receipt. Receipt No CASH-VAL-902. Date 04 July 2026. Store: Cedarline Retail. Customer: Rahul Menon. Items: notebook and desk organizer. Total received INR 860.00. Payment method cash. Balance due INR 0.00.,receipt
+"Bank Transfer Acknowledgement. Reference BT-VAL-903. Date 07 July 2026. Remitter Pooja Desai. Beneficiary Summit Digital Works. Purpose: consulting service payment. Amount INR 12,500.00. Transfer status completed.",receipt
+"Point of Sale Receipt. Merchant Orbit Retail Pvt Ltd. Receipt POS-VAL-904. Date 10 July 2026. Items: wireless mouse and USB hub. Subtotal INR 1,800.00. Tax INR 324.00. Total paid INR 2,124.00 by debit card.",receipt
+"Service Receipt. Receipt Number SRV-VAL-905. Date 13 July 2026. Received from Aditya Rao for laptop servicing and diagnostics. Amount INR 2,950.00. Mode of payment: UPI. Status: Paid in full. Thank you for your business.",receipt

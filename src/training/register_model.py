@@ -1,15 +1,16 @@
 from azure.ai.ml import MLClient
 from azure.ai.ml.entities import Model
-from azure.identity import AzureCliCredential
+#from azure.identity import AzureCliCredential
+from azure.identity import InteractiveBrowserCredential
 
 
 # ============================================================
 # Azure configuration
 # ============================================================
 
-SUBSCRIPTION_ID = "96df72e2-2bf4-44c9-81b0-ef644cf462e5"
-RESOURCE_GROUP = "rg-docclass-dev-001"
-WORKSPACE_NAME = "enterprise-document-ml"
+SUBSCRIPTION_ID = "2611858c-37e9-4158-990e-572dbd349687"
+RESOURCE_GROUP = "RG-YogeshKhairnar"
+WORKSPACE_NAME = "enterprise-document-ml-1"
 
 
 # ============================================================
@@ -18,7 +19,10 @@ WORKSPACE_NAME = "enterprise-document-ml"
 
 print("Connecting to Azure ML...")
 
-credential = AzureCliCredential()
+#credential = AzureCliCredential()
+credential = InteractiveBrowserCredential(
+    tenant_id="6557bae0-e0d1-4268-8782-39d8cadbefe7"
+)
 
 ml_client = MLClient(
     credential=credential,
@@ -35,7 +39,7 @@ print(f"Workspace: {WORKSPACE_NAME}")
 # Register model
 # ============================================================
 
-MODEL_PATH = "models/document_classifier.pkl"
+MODEL_PATH = "models/document_classifier.pk2"
 
 model = Model(
     path=MODEL_PATH,

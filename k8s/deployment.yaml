@@ -1,3 +1,4 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -20,17 +21,18 @@ spec:
     spec:
       containers:
         - name: document-classifier
-          image: enterpisedocacr.azurecr.io/document-classifier-api:1.0
+          image: enterprisedocacr1.azurecr.io/doc-classifier-api:1.0
+          imagePullPolicy: IfNotPresent
 
           ports:
-            - containerPort: 8000
+            - name: http
+              containerPort: 8000
+              protocol: TCP
 
-          env:
-            - name: DOCUMENT_INTELLIGENCE_KEY
-              valueFrom:
-                secretKeyRef:
-                  name: document-intelligence-secret
-                  key: DOCUMENT_INTELLIGENCE_KEY
+          # Load application credentials from Kubernetes Secret
+          envFrom:
+            - secretRef:
+                name: document-intelligence-secret
 
           resources:
             requests:
@@ -47,6 +49,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: document-classifier-service
+  labels:
+    app: document-classifier
 
 spec:
   type: LoadBalancer
@@ -55,6 +59,7 @@ spec:
     app: document-classifier
 
   ports:
-    - protocol: TCP
+    - name: http
+      protocol: TCP
       port: 8000
       targetPort: 8000

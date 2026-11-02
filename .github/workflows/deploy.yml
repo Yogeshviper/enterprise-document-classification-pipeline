@@ -10,11 +10,11 @@ permissions:
   contents: read
 
 env:
-  ACR_NAME: enterpisedocacr
-  ACR_LOGIN_SERVER: enterpisedocacr.azurecr.io
-  IMAGE_NAME: document-classifier-api
-  RESOURCE_GROUP: rg-docclass-dev-001
-  AKS_CLUSTER: enterprise-doc-aks
+  ACR_NAME: enterprisedocacr1
+  ACR_LOGIN_SERVER: enterprisedocacr1.azurecr.io
+  IMAGE_NAME: doc-classifier-api
+  RESOURCE_GROUP: RG-YogeshKhairnar
+  AKS_CLUSTER: enterprise-doc-aks1
 
 jobs:
   build-and-deploy:

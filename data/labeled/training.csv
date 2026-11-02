@@ -1,4 +1,4 @@
-document_text,label
+﻿document_text,label
 Invoice No INV-2026-201. Bill To Northwind Services. Item Cloud consulting. Amount $2450. Tax $245. Total Due $2695.,invoice
 Invoice No INV-2026-202. Bill To Contoso Ltd. Item Software subscription. Amount $1800. Tax $180. Total Due $1980.,invoice
 Invoice No INV-2026-203. Vendor Alpine Services. Consulting services. Subtotal $3200. Tax $320. Total $3520.,invoice
@@ -24,3 +24,13 @@ Software Services Agreement. Customer Northwind Services. Provider TechSource Lt
 Company Announcement. Office will be closed for the scheduled maintenance window. Employees should complete pending activities before the maintenance begins.,other
 "Project Status Update. Current phase testing. Open items include documentation, stakeholder review, and deployment readiness. Next review scheduled Friday.",other
 Internal Policy Note. All teams must follow the approved change management process and obtain authorization before production deployment.,other
+Identity Card. Card Number DEMO-ID-1001. Name Aarav Mehta. Department Information Technology. Valid From 01 January 2026. Valid Until 31 December 2027. Organization Sample Technology Services.,id-card
+Employee ID Card. Employee ID EMP-2045. Name Diya Shah. Department Finance. Designation Accounts Executive. Issue Date 15 February 2026. Expiry Date 14 February 2028.,id-card
+Student Identity Card. Student Number STU-8821. Name Kabir Rao. Institution Western Sample University. Program Bachelor of Computer Applications. Academic Year 2026-2027.,id-card
+Identity Document. Card No DEMO-ID-1004. Holder Ananya Iyer. Department Operations. Date of Issue 10 March 2026. Valid Through 09 March 2028. Sample identification card.,id-card
+Staff ID. Badge Number STAFF-5109. Name Vivaan Nair. Employer Northstar Office Supplies. Role Network Technician. Access Level Standard. Validity 2026 to 2027.,id-card
+Payment Receipt. Receipt No RCPT-2026-501. Date 05 May 2026. Received From Meera Joshi. Payment Mode UPI. Description Office supplies. Amount Received INR 1850.00. Payment Status Paid.,receipt
+Cash Receipt. Receipt Number CR-260502. Date 08 May 2026. Customer Arjun Patel. Description Printer cartridges. Amount INR 2450.00. Cash received in full. Balance zero.,receipt
+Payment Acknowledgement. Transaction Receipt TXN-76003. Date 12 May 2026. Payer Isha Kulkarni. Payment Method Bank Transfer. Service Cloud support. Total Paid INR 7200.00.,receipt
+Retail Receipt. Store Orbit Retail Pvt Ltd. Receipt ID OR-2026-504. Date 18 May 2026. Items Wireless keyboard and mouse. Subtotal INR 1650. Tax INR 297. Grand Total INR 1947. Payment Card.,receipt
+Service Payment Receipt. Receipt No SR-260505. Date 22 May 2026. Received From Rohan Das. Service Document processing. Amount Paid INR 3200.00. Payment Mode Cash. Status PAID.,receipt

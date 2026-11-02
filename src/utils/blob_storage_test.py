@@ -2,7 +2,7 @@ from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobServiceClient
 
 
-STORAGE_ACCOUNT_NAME = "stdocclassdev001"
+STORAGE_ACCOUNT_NAME = "stdocclassdev002"
 CONTAINER_NAME = "raw-documents"
 
 
