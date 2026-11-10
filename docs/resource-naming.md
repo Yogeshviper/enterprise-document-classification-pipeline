@@ -26,27 +26,27 @@ centralindia
 
 ## Resource Group
 
-rg-docclass-dev-001
+rg-docclass-dev-002
 
 ## Storage Account
 
-stdocclassdev001
+stdocclassdev002
 
 ## Azure AI Foundry Hub
 
-aih-docclass-dev-001
+aih-docclass-dev-002
 
 ## Azure AI Foundry Project
 
-aip-docclass-dev-001
+aip-docclass-dev-002
 
 ## Azure Machine Learning Workspace
 
-mlw-docclass-dev-001
+mlw-docclass-dev-002
 
 ## AKS Cluster
 
-aks-docclass-dev-001
+aks-docclass-dev-002
 
 ---
 
@@ -120,17 +120,17 @@ The Blob Storage structure remains unchanged.
 
 Development:
 
-rg-docclass-dev-001
-stdocclassdev001
-mlw-docclass-dev-001
-aks-docclass-dev-001
+rg-docclass-dev-002
+stdocclassdev002
+mlw-docclass-dev-002
+aks-docclass-dev-002
 
 Test:
 
-rg-docclass-test-001
-stdocclasstest001
-mlw-docclass-test-001
-aks-docclass-test-001
+rg-docclass-test-002
+stdocclasstest002
+mlw-docclass-test-002
+aks-docclass-test-002
 
 Production:
 
